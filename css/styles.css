@@ -426,11 +426,13 @@ ul {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+
   background-color: var(--hero-background-color);
 }
 
 .footer-flex {
   display: flex;
+
   margin: 0;
   padding: 0;
   list-style: none;
@@ -443,6 +445,7 @@ ul {
   font-size: 14px;
   line-height: 1.14px;
   text-transform: uppercase;
+
   color: var(--white-text-color);
 }
 
@@ -496,9 +499,12 @@ ul {
   color: var(--white-text-color);
 }
 
-.footer-contact-item,
 .footer-contact-item {
   margin-top: 9px;
+}
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+  color: var(--accent-color);
 }
 
 /* ---------------------------------------------- */
