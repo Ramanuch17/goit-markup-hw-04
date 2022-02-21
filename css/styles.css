@@ -48,7 +48,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   top: 0px;
   left: 0;
